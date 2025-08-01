@@ -1,0 +1,157 @@
+/* WeatherInformations5Days.css */
+
+/* Estilo principal */
+.weather--container {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+    background: linear-gradient(to bottom right, #b0e0f7, #63a4ff);
+    border-radius: 16px;
+    color: #000;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .weather--container > p:first-child {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 25px;
+    color: #1b1b1b;
+  }
+  
+  .weather--days {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+  
+  .weather--card {
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 14px;
+    padding: 16px;
+    width: 150px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+  }
+  
+  .weather--card:hover {
+    transform: scale(1.05);
+  }
+  
+  .weather--card p {
+    margin: 6px 0;
+    font-size: 0.95rem;
+    color: #333;
+  }
+  
+  .weather--icon {
+    font-size: 1.8rem;
+    margin: 10px 0;
+  }
+  
+  /* Novo bloco adicionado */
+  .weather-container {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+  }
+  
+  h2 {
+    font-size: 2rem;
+  }
+  
+  .weather-informations {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .weather-informations img {
+    width: 100px;
+  }
+  
+  .temperature {
+    font-weight: bold;
+    font-size: 2.5rem;
+  }
+  
+  .description {
+    text-transform: capitalize;
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+  }
+  
+  .details {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+  }
+  
+  /* Responsividade para mobile */
+  @media (max-width: 640px) {
+    .weather--container {
+      padding: 16px;
+      margin: 20px 10px;
+    }
+  
+    .weather--container > p:first-child {
+      font-size: 1.25rem;
+    }
+  
+    .weather--days {
+      flex-direction: column;
+      align-items: center;
+      gap: 12px;
+    }
+  
+    .weather--card {
+      width: 100%;
+      max-width: 280px;
+      padding: 12px;
+    }
+  
+    .weather--card p {
+      font-size: 0.9rem;
+    }
+  
+    .weather--icon {
+      font-size: 1.5rem;
+    }
+  
+    .weather-container {
+      padding: 16px;
+      margin: 16px 10px;
+    }
+  
+    h2 {
+      font-size: 1.5rem;
+    }
+  
+    .weather-informations {
+      flex-direction: column;
+      gap: 16px;
+    }
+  
+    .weather-informations img {
+      width: 80px;
+    }
+  
+    .temperature {
+      font-size: 2rem;
+    }
+  
+    .description {
+      font-size: 1.1rem;
+    }
+  
+    .details {
+      flex-direction: column;
+      align-items: center;
+      gap: 8px;
+    }
+  }
+  
