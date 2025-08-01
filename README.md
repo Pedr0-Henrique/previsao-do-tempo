@@ -28,10 +28,10 @@ Aplicativo de previsão do tempo desenvolvido em **React.js**, consumindo a **AP
 ## 🚀 Como executar  
 ```bash
 # Clone o repositório
-git clone https://github.com/SEU-USUARIO/weather-forecast-app
+git clone https://github.com/Pedr0-Henrique/previsao-do-tempo
 
 # Acesse a pasta do projeto
-cd weather-forecast-app
+cd previsao-do-tempo
 
 # Instale as dependências
 npm install
