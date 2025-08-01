@@ -1,12 +1,41 @@
-# React + Vite
+# 🌦 Previsão do tempo 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Status](https://img.shields.io/badge/status-active-success)  
+![React](https://img.shields.io/badge/React-18.0-blue?logo=react)  
+![Axios](https://img.shields.io/badge/Axios-API-yellow?logo=axios)  
+![License](https://img.shields.io/badge/license-MIT-green)  
 
-Currently, two official plugins are available:
+Aplicativo de previsão do tempo desenvolvido em **React.js**, consumindo a **API OpenWeatherMap** para exibir informações meteorológicas em tempo real.  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Funcionalidades  
+✅ **Previsão atual:** Temperatura, sensação térmica, umidade e descrição do clima.  
+✅ **Próximos 5 dias:** Cards com visual interativo e ícones climáticos dinâmicos.  
+✅ **Busca rápida:** Pesquisa por cidade com botão ou tecla Enter.  
+✅ **Design moderno e responsivo:** Estilo Glassmorphism com animações suaves.  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠 Tecnologias  
+- ⚛ **React.js (Hooks e Componentização)**  
+- 🌐 **Axios (Consumo de API)**  
+- 🎨 **CSS3 com animações e Glassmorphism**  
+- ☁ **OpenWeatherMap API**  
+- 🚀 **Vite.js para build rápido**  
+
+
+
+
+## 🚀 Como executar  
+```bash
+# Clone o repositório
+git clone https://github.com/SEU-USUARIO/weather-forecast-app
+
+# Acesse a pasta do projeto
+cd weather-forecast-app
+
+# Instale as dependências
+npm install
+
+# Inicie o projeto
+npm run dev
+
